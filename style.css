@@ -1,0 +1,82 @@
+
+
+.jumbotron{
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    background-color: #e2edff;
+}
+
+#project{
+     background-color: #e2edff;
+}
+
+#About{
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+#tulisanabout{
+    margin-bottom: 10px;
+}
+
+section{
+    padding-top: 2rem;
+ 
+}
+.btn{
+    margin: 5px;
+}
+footer{
+    padding: 15px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+
+
+/* FAQs */
+.accordion-button {
+    position: relative;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #212529;
+    background-color: #ffffff;
+    border: 1px solid  #003283;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.accordion-item {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.accordion-body{
+    background-color: #e2edff;
+}
+.accordion-flush .accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-flush .accordion-button {
+    background-color: white;
+    color: black;
+    font-weight:500;
+    border-radius: 10px;
+}
+
+#Acoarding{
+font-size: 17px;
+color: #000000;
+}
+#form{
+    border: 1px solid blue;
+}
+
+/* Text about */
+#textabout{
+    padding: 10px;
+    margin: 10px;
+}
+
+/* button kirim */
