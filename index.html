@@ -33,7 +33,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-md bg-primary navbar-dark shadow fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">My Portfolio</a>
+            <a class="navbar-brand " href="#">My Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -60,7 +60,7 @@
 
 
     <!-- Jumbotron -->
-    <section class="jumbotron text-center ">
+    <section class="jumbotron text-center expand-md">
         <img src="img/ginda.jpg" alt="Ginda dwi pamungkas" width="200" class="rounded-circle img-thumbnai"
             data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">
         <h4 class="display-4 fw-bold" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">Ginda dwi
@@ -93,29 +93,24 @@
             </i>Fotografi</button>
     </section>
     <!-- Akhir Jumbotron -->
-
-
-
-    <!-- About Us -->
-
     <section id="About">
-        <div class="countainer ">
+        <div class="container">
             <div class="row text-center mb-6 mt-2">
                 <div class="col" id="tulisanabout" data-aos="fade-down" data-aos-duration="500">
                     <h2>About Me</h2>
                 </div>
             </div>
 
-            <div class="row  justify-content-center fs-5 text-center">
+            <div class="row justify-content-center fs-5 text-center">
                 <div id="textabout" class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
                     <p class="text-sm-start">hy nama saya ginda dwi pamungkas saat ini saya seorang mahasiswa yang
-                        memiliki berbagai hobi
-                        dari editing video, photo dan videografi, web design. untuk saat ini saya menjadi seorang
-                        wordpress developer
-                        di salah satu instansi, saya juga ingin menjadi seorang frontend developer
+                        memiliki berbagai hobi dari editing video, photo dan videografi, web design. untuk saat ini saya
+                        menjadi seorang wordpress developer di salah satu instansi, saya juga ingin menjadi seorang
+                        frontend
+                        developer
                     </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <div class="container">
                         <div class="accordion accordion-flush" id="accordionExample">
                             <div class="accordion-item">
@@ -167,7 +162,7 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
                                             <p class="text-sm-start" id="Acoarding">
-                                                untuk konpensasi revisi setelah selesai project hanya satu kali
+                                                untuk kompensasi revisi setelah selesai project hanya satu kali
                                             </p>
                                         </div>
                                     </div>
@@ -193,17 +188,13 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
     <!-- Akhir About -->
-
-
     <!-- Project Menggunakan CARD -->
     <section id="project">
         <div class="container">
@@ -276,10 +267,8 @@
     </section>
     <!-- Akhir Project Menggunakan CARD -->
 
-
     <!-- Contact -->
-    <section id="contact3 mb-6">
-
+    <section id="contact3" class="mb-6">
         <div class="container">
             <div class="row text-center mb-3" data-aos="fade-down" data-aos-duration="500">
                 <div class="col">
@@ -288,30 +277,29 @@
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-md-6">
+                <div class="col-md-6" style="overflow-x: hidden;">
                     <form>
                         <div class="mb-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                             <label for="name" class="form-label">Nama Lengkap</label>
-                            <input type="name" class="form-control  shadow-sm" id="form" aria-describedby="name">
+                            <input type="name" class="form-control shadow-sm" id="name" aria-describedby="name">
                         </div>
                         <div class="mb-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-                            <label for="email" class="form-label">Email </label>
-                            <input type="email" class="form-control shadow-sm" id="form" aria-describedby="email">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control shadow-sm" id="email" aria-describedby="email">
                         </div>
                         <div class="mb-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="350">
                             <label for="pesan" class="form-label">Pesan</label>
-                            <textarea class="form-control  shadow-lg" id="form" rows="3"></textarea>
+                            <textarea class="form-control shadow-lg" id="pesan" rows="3"></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-primary " onclick="sendWhatsAppMessage()"
-                            data-aos="fade-left" data-aos-duration="1000" data-aos-delay="350"
-                            style="padding-left: 50px; padding-right: 50px;">Kirim</button>
+                        <button type="submit" class="btn btn-primary" onclick="sendWhatsAppMessage()"
+                            data-aos="fade-left" data-aos-duration="1000" data-aos-delay="350">Kirim</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
-    <!-- akhir contact -->
+    <!-- Akhir Contact -->
 
 </body>
 
