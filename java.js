@@ -6,7 +6,7 @@
         var email = document.querySelector("email").value;
         var Message = document.querySelector("Message").value;
 
-       var url = "https://wa.me/" + phonenumber + "?text="
+       var url = "https://wa.link.me/" + phonenumber + "?text="
        +"Name: "  +name+ "%0a"
        +"Email: " +email+ "%0a"
        +"Message: " +Message+ "%0a%0a"
