@@ -17,11 +17,14 @@ function sendMessage() {
 
     // Format pesan sesuai dengan aturan WhatsApp
     const formattedMessage = encodeURIComponent(
-        `Assalamualaikum.%0A%0ANama saya *${name}*%0AEmail *${email}*%0A%0A*${message}*`
+        `Assalamualaikum.%0a 
+        "Nama saya " +name+ 
+        "AEmail" +email+
+        +message+`
     );
 
     // Buat URL dengan nomor telepon dan pesan yang diformat
-    const url = `https://wa.me/${phoneNumber}?text=${formattedMessage}`;
+    const url = `https://wa.me/${phoneNumber}?text="nama:"${name} "message" ${message}`;
 
     // Buka URL untuk membuka aplikasi WhatsApp pada perangkat seluler
     window.open(url, "_blank");
