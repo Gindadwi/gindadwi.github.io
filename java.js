@@ -10,7 +10,7 @@
 
 
 function sendMessage() {
-    const phoneNumber = "6281228900185"; // Nomor WhatsApp penerima
+    const phoneNumber = "62895326598832"; // Nomor WhatsApp penerima
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const message = document.getElementById("Message").value;
