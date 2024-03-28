@@ -1,11 +1,16 @@
 
     function sendMessage() {
-        const name = document.getElementById("name").value;
-        const email = document.getElementById("email").value;
-        const Message = document.getElementById("Message").value;
+        var phonenumber = "+6281228900185"
+        var name = document.querySelector("name").value;
+        var email = document.querySelector("email").value;
+        var Message = document.querySelector("Message").value;
 
-        const url = "https://api.whatsapp.com/send?phone=6281228900185&text=%0Aassalamualaikum.%0A%0Anama%20saya%20* " +name+ " *%0Aemail%20*"+email+"*%0A%0A*"+Message+"*"
-        window.open(url);
+       var url = "https://wa.me/" + phonenumber + "?text="
+       +"*Name :* " +name+ "%0a"
+       +"*Email :* " +email+ "%0a"
+       +"*Message :* " +Message+ "%0a%0a"
+
+       window.open(url, '_blank').focus();
     }
 
 
