@@ -17,7 +17,7 @@ function sendMessage() {
 
     // Format pesan sesuai dengan aturan WhatsApp
     const formattedMessage = encodeURIComponent(
-        `Assalamualaikum.%0A%0ANama saya *${name}*%0AEmail *${email}*%0A%0A*${message}*`
+        `Assalamualaikum. Nama saya *${name} *Email*${email}* *${message}*`
     );
 
     // Buat URL dengan nomor telepon dan pesan yang diformat
