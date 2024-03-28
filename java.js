@@ -21,7 +21,7 @@ function sendMessage() {
     );
 
     // Buat URL dengan nomor telepon dan pesan yang diformat
-    const url = `https://wa.me/${phoneNumber}?text=${formattedMessage}`;
+    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${formattedMessage}`;
 
     // Buka URL untuk membuka aplikasi WhatsApp pada perangkat seluler
     window.open(url, "_blank");
