@@ -9,16 +9,22 @@
     // }
 
 
-    function sendMessage() {
+function sendMessage() {
+    const phoneNumber = "6281228900185"; // Nomor WhatsApp penerima
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const message = document.getElementById("Message").value;
 
-    const phoneNumber = "6281228900185"; // Nomor WhatsApp penerima
-    const text = `Assalamualaikum.%0A%0ANama saya *${name}*%0AEmail *${email}*%0A%0A*${message}*`;
-    const url = `https://wa.me/${phoneNumber}?text=${text}`;
+    // Format pesan sesuai dengan aturan WhatsApp
+    const formattedMessage = encodeURIComponent(
+        `Assalamualaikum.%0A%0ANama saya *${name}*%0AEmail *${email}*%0A%0A*${message}*`
+    );
 
-    window.open(url);
+    // Buat URL dengan nomor telepon dan pesan yang diformat
+    const url = `https://wa.me/${phoneNumber}?text=${message}`;
+
+    // Buka URL untuk membuka aplikasi WhatsApp pada perangkat seluler
+    window.open(url, "_blank");
 }
 
 
