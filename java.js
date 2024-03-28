@@ -1,22 +1,13 @@
 // Fungsi untuk mengirim pesan WhatsApp
-    function sendWhatsAppMessage() {
-        var name = document.getElementById("name").value;
-        var email = document.getElementById("email").value;
-        var message = document.getElementById("pesan").value;
+    function sendMessage() {
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const Message = document.getElementById("Message").value;
 
-        // Ganti nomor WhatsApp dengan nomor Anda
-        var phoneNumber = "6281234567890";
-
-        // Format pesan yang akan dikirim melalui WhatsApp
-        var whatsappMessage = "Nama: " + name + "%0A" + "Email: " + email + "%0A" + "Pesan: " + message;
-
-        // Redirect ke aplikasi WhatsApp dengan pesan yang sudah diformat
-        window.location.href = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + whatsappMessage;
+        const url = "https://api.whatsapp.com/send?phone=6281228900185&text=%0Aassalamualaikum.%0A%0Anama%20saya%20* " +name+ " *%0Aemail%20*"+email+"*%0A%0A*"+Message+"*"
+        window.open(url);
     }
 
-    // Event listener untuk tombol Kirim
-    document.getElementById("sendMessageBtn").addEventListener("click", function () {
-        sendWhatsAppMessage();
-    });
+
 
     
