@@ -10,14 +10,14 @@
 
 
 function sendMessage() {
-    const phoneNumber = "62895326598832"; // Nomor WhatsApp penerima
+    const phoneNumber = "6281228900185"; // Nomor WhatsApp penerima
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const message = document.getElementById("Message").value;
 
     // Format pesan sesuai dengan aturan WhatsApp
     const formattedMessage = encodeURIComponent(
-        `https://api.whatsapp.com/send?phone=+6281228900185&text=Assalamualaikum%0A%0ANama%20saya%20*+name+*%0AEmail%20%3A%20*+email+*%0A%0A*+message+*`
+        `Assalamualaikum.%0A%0ANama saya *${name}*%0AEmail *${email}*%0A%0A*${message}*`
     );
 
     // Buat URL dengan nomor telepon dan pesan yang diformat
