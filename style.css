@@ -1,4 +1,6 @@
-
+.navbar{
+    background-color: #003BFF;
+}
 
 .HeroMenu {
     display: flex;
@@ -73,6 +75,8 @@
 .img33{
 
     margin-top: -20px;
+    margin-right: 60px;
+    margin-left: -80px;
     border-top-left-radius: 60px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 60px;
@@ -98,9 +102,19 @@ display: none;
 }
 
 
+.img-img{
+    padding-top: 30px;
+}
 
+#textHero{
+    font-weight: 400;
+    font-size: 18px;
+}
 
-
+.hello{
+    color: #FA9300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 
 
 #project{
@@ -127,6 +141,28 @@ footer{
     padding: 15px;
     padding-top: 25px;
     margin-top: 20px;
+}
+
+/* skill */
+
+.row{
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.box1{
+    padding: 15px;
+    margin: 10px;
+    border: solid 1px rgb(187, 187, 187);
+    border-radius: 10px;
+}
+
+@media (min-width: 769px) {
+    .box1 {
+        display: none;
+    }
+
+
 }
 
 

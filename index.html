@@ -31,7 +31,7 @@
     <!-- Mulai Latihan Bootstrapp  -->
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md bg-primary navbar-dark shadow fixed-top">
+    <nav class="navbar navbar-expand-md  navbar-dark shadow fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">My Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -59,45 +59,135 @@
 
     <!-- akhir navbar -->
 
- 
-     <!-- Jumbotron -->
-<section class="HeroMenu justify-content-center">
-    <div class="container px-4 py-5">
+
+    <!-- Jumbotron -->
+    <section class="HeroMenu justify-content-center">
+        <div class="container px-4 py-5">
 
             <!-- Images on the left (for desktop) -->
-            <div class="col-md-5 mx-auto mb-3 ">
-                <img src="img/ginda1.png" alt="" width="140" class="img11">
-                <img src="img/ginda2.jpg" alt="" width="140" class="img22">
-                <img src="img/ginda3.jpg" alt="" width="140" class="img33">
+            <div class="ImagesHero col-md-5 mx-auto  text-center">
+                <img src="img/ginda1.png" alt="" width="140" class="img11" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                <img src="img/ginda2.jpg" alt="" width="140" class="img22" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                <img src="img/ginda3.jpg" alt="" width="140" class="img33" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
             </div>
 
-        <div class="row fs-5 justify-content-center align-items-center m-10 p-10">
+            <div class="row fs-5 justify-content-center align-items-center m-10 p-10">
 
-            <!-- Text on the right (for desktop) -->
-            <div class="img-img col-md-6 justify-content-center">
-                <h1 class="display-7 fw-bold text-body-emphasis lh-1 mb-3" data-aos="fade-down" data-aos-delay="100">Ginda dwi pamungkas</h1>
-                <p class="lead" data-aos="fade-down" data-aos-delay="200">
-                    Tempatnya untuk menemukan kelezatan otentik dari <b>masakan rumahan</b> dan <b>aneka dimsum</b> yang memikat lidah.
-                    Kami mempersembahkan pengalaman kuliner yang tak terlupakan, menggabungkan keahlian tradisional dengan sentuhan modern,
-                    untuk menciptakan hidangan yang menggugah selera.
-                </p>
+                <!-- Text on the right (for desktop) -->
+                <div class="img-img col-md-6 justify-content-center ">
+                    <h3 class="hello" data-aos="fade-down">Hallo Minna I'm</h3>
+                    <h1 class="display-7 fw-bold text-body-emphasis lh-1 mb-3" data-aos="fade-down"
+                        data-aos-delay="100"> Ginda dwi pamungkas</h1>
+                    <p class="lead text-sm" data-aos="fade-down" data-aos-delay="200" id="textHero">
+                        Saya sekarang seorang mahasiswa di universitas amikom purwokerto saya memiliki beberapa skil di
+                        antaranya editing video, Fotography, Videography, web-design
+                    </p>
+                    <button class="btn btn-primary " data-aos="fade-right" data-aos-duration="1000" > Contact Me</button>
+                    <button class="btn btn-outline-primary " data-aos="fade-left" data-aos-duration="1000"> Download CV</button>
+                </div>
+
+                <!-- Images on the left (for desktop) -->
+                <div class="col-md-6 mx-auto mb-3">
+                    <img src="img/ginda1.png" alt="" width="200" class="img1">
+                    <img src="img/ginda2.jpg" alt="" width="200" class="img2">
+                    <img src="img/ginda3.jpg" alt="" width="200" class="img3">
+                </div>
             </div>
 
-            <!-- Images on the left (for desktop) -->
-            <div class="col-md-5 mx-auto mb-3">
-                <img src="img/ginda1.png" alt="" width="175" class="img1">
-                <img src="img/ginda2.jpg" alt="" width="175" class="img2">
-                <img src="img/ginda3.jpg" alt="" width="175" class="img3">
+        </div>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- skill -->
+
+    <section class="skill">
+        <div class="container">
+            <h1 class="text-center">my expertise</h1>
+            <div class="row text-center ">
+
+                <div class="box1 col-5 shadow " >
+                    <img src="img/html.png" alt="" width="70">
+                    <h4>Html</h4>
+                </div>
+
+                <div class="box1 col-5 shadow">
+                    <img src="img/html.png" alt="" width="70">
+                    <h4>Html</h4>
+                </div>
+
+
             </div>
+        </div>
+    </section>
 
+    <!-- akhir skill -->
 
+    <!-- FAQs -->
+    <section class="FAQs">
 
+        <div class="container">
+            <div class="text-center md-3">
+                <h1>FAQs</h1>
+            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Apa Saja layanan yang saya tawarkan?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                            plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                            custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                            within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Apakah saya bekerja sendirian?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                            plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                            custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                            within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rounded type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Apa saja yang bisa saya kerjakan?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                            plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                            custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                            within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
-    </div>
-</section>
-<!-- Akhir Jumbotron -->
+    </section>
+
+    <!-- Akhir FAQs -->
 
     <!-- Project Menggunakan CARD -->
     <section id="project">
@@ -185,12 +275,14 @@
                     <form onsubmit="sendMessage()">
                         <div class="mb-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                             <label for="name" class="form-label">Nama Lengkap</label>
-                            <input type="name" class="form-control shadow-sm" id="name" aria-describedby="name" required>
-                            
+                            <input type="name" class="form-control shadow-sm" id="name" aria-describedby="name"
+                                required>
+
                         </div>
                         <div class="mb-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control shadow-sm" id="email" aria-describedby="email" required>
+                            <input type="email" class="form-control shadow-sm" id="email" aria-describedby="email"
+                                required>
                         </div>
                         <div class="mb-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="350">
                             <label for="pesan" class="form-label">Pesan</label>
@@ -211,19 +303,20 @@
 
 <!-- footer -->
 <footer class="bg-primary text-white text-center p-10 ">
-    
-<button type="button" class="btn btn-outline-light" onclick="window.location.href='https://www.tiktok.com/@ginda.sann'">
-    <i class="bi bi-tiktok"></i>
-</button>
 
-<button type="button" class="btn btn-outline-light"
-    onclick="window.location.href='https://www.instagram.com/ginda.sann/'">
-    <i class="bi bi-instagram"></i>
-</button>
+    <button type="button" class="btn btn-outline-light"
+        onclick="window.location.href='https://www.tiktok.com/@ginda.sann'">
+        <i class="bi bi-tiktok"></i>
+    </button>
 
-<button type="button" class="btn btn-outline-light" onclick="window.location.href='https://github.com/Gindadwi'">
-    <i class="bi bi-github"></i>
-</button>
+    <button type="button" class="btn btn-outline-light"
+        onclick="window.location.href='https://www.instagram.com/ginda.sann/'">
+        <i class="bi bi-instagram"></i>
+    </button>
+
+    <button type="button" class="btn btn-outline-light" onclick="window.location.href='https://github.com/Gindadwi'">
+        <i class="bi bi-github"></i>
+    </button>
 
     <p class="pt-3">Created with <i class="bi bi-heart-fill text-danger"></i> by <a class="text-white fw-bold">Ginda Dwi
             Pamungkas</a></p>
