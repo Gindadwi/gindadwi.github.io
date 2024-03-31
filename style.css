@@ -57,7 +57,7 @@
 
 /* Image mobile */
 .img11{
-    
+    margin-left: 10px;
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;
@@ -67,7 +67,7 @@
 .img22{
 
    margin-top: 80px;
-   margin-left: 10px;
+   margin-left: 30px;
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
