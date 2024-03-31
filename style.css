@@ -11,6 +11,7 @@
     text-align: left; /* optional, to center align content within the container */
 }
 
+/* Image dekstop */
 
 .img1{
     
@@ -32,7 +33,7 @@
 
 .img3{
 
-    margin-top: -10px;
+    margin-top: -20px;
     border-top-left-radius: 60px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 60px;
@@ -46,26 +47,61 @@
     
 }
 
+/* Akhir image dekstop */
+
+
+
+/* Image mobile */
+.img11{
+    
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 10px;
+}
+
+.img22{
+
+   margin-top: 80px;
+   margin-left: 10px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 10px;
+}
+
+.img33{
+
+    margin-top: -20px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
 
 
 @media (max-width: 768px) {
-  .Images{
-    text-align: center;
-    
-  }
-
-
     .img1, .img2, .img3 {
-        margin-top: 10px; /* Adjust the margin-top to make images aligned */
+        display: none;
     }
-  
-    .img2{
-        margin-top: 60px;
-    }
-
 
 
 }
+
+@media (min-width: 769px) {
+    .img11, .img22, .img33 {
+        
+       
+display: none;
+    }
+}
+
+
+
+
+
+
 
 #project{
      background-color: #e2edff;
