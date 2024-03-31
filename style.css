@@ -57,7 +57,8 @@
 
 /* Image mobile */
 .img11{
-    margin-left: 10px;
+    margin-left: 0px;
+    margin-top: 30px;
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;
@@ -67,7 +68,7 @@
 .img22{
 
    margin-top: 80px;
-   margin-left: 30px;
+   margin-left: 0px;
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
@@ -76,9 +77,9 @@
 
 .img33{
 
-    margin-top: -20px;
-    margin-right: 60px;
-    margin-left: -80px;
+    margin-top: -10px;
+    
+    margin-left: -150px;
     border-top-left-radius: 60px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 60px;
