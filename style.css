@@ -1,9 +1,70 @@
 
 
-.jumbotron{
-    padding-top: 6rem;
-    padding-bottom: 3rem;
-    background-color: #e2edff;
+.HeroMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* optional, to vertically center the content */
+    min-height: 70vh; /* optional, to make sure the section takes up at least the height of the viewport */
+}
+
+.container {
+    text-align: left; /* optional, to center align content within the container */
+}
+
+
+.img1{
+    
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 10px;
+}
+
+.img2{
+
+   margin-top: 80px;
+   margin-left: 10px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 10px;
+}
+
+.img3{
+
+    margin-top: -10px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.img-img{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+
+
+@media (max-width: 768px) {
+  .Images{
+    text-align: center;
+    
+  }
+
+
+    .img1, .img2, .img3 {
+        margin-top: 10px; /* Adjust the margin-top to make images aligned */
+    }
+  
+    .img2{
+        margin-top: 60px;
+    }
+
+
+
 }
 
 #project{
