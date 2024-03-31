@@ -44,7 +44,10 @@
                         <a class="nav-link active" aria-current="page" href="#Home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#About">Abouts</a>
+                        <a class="nav-link" href="#skill">Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#FAQs">FAQs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#project">Project</a>
@@ -61,7 +64,7 @@
 
 
     <!-- Jumbotron -->
-    <section class="HeroMenu justify-content-center">
+    <section class="HeroMenu justify-content-center" id="Home">
         <div class="container px-4 py-5">
 
             <!-- Images on the left (for desktop) -->
@@ -82,7 +85,7 @@
                         Saya sekarang seorang mahasiswa di universitas amikom purwokerto saya memiliki beberapa skil di
                         antaranya editing video, Fotography, Videography, web-design
                     </p>
-                    <button class="btn btn-primary " data-aos="fade-right" data-aos-duration="1000" > Contact Me</button>
+                    <a href="#contact3" class="btn " id="btnkontak" data-aos="fade-right" data-aos-duration="1000">Contact Me</a>
                     <button class="btn btn-outline-primary " data-aos="fade-left" data-aos-duration="1000"> Download CV</button>
                 </div>
 
@@ -100,8 +103,8 @@
 
     <!-- skill -->
 
-    <section class="skill">
-        <div class="container">
+    <section class="skill" id="skill">
+        <div class="container mx-auto">
             <h1 class="text-center" id="myskill">my expertise</h1>
             <h6 class="text-center">What skills do I currently have?</h6>
             <div class="row text-center ">
@@ -110,7 +113,7 @@
                     <img src="img/html.png" alt="" width="70">
                     <h4>Html</h4>
                 </div>
-
+                
                 <div class="box1 col-5 shadow" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                     <img src="img/css.png" alt="" width="70">
                     <h4>CSS</h4>
@@ -119,17 +122,17 @@
                     <img src="img/js.png" alt="" width="70">
                     <h4>java</h4>
                 </div>
-
+                
                 <div class="box1 col-5 shadow" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
                     <img src="img/Bootstrapp.png" alt="" width="70">
                     <h4>Bootstrapp</h4>
                 </div>
-                <div class="box1 col-5 shadow " data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600" >
+                <div class="box1 col-5 shadow " data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
                     <img src="img/Videografi-icon.png" alt="" width="70">
                     <h4>Videography</h4>
                 </div>
-
-                <div class="box1 col-5 shadow" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">
+                
+                <div class="box1 col-5 shadow" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="700">
                     <img src="img/Wordpress-icon.png" alt="" width="70">
                     <h4>Wordpress</h4>
                 </div>
@@ -142,7 +145,7 @@
     <!-- akhir skill -->
 
     <!-- FAQs -->
-    <section class="FAQs">
+    <section class="FAQs" id="FAQs">
 
         <div class="container">
             <div class="text-center md-3">
@@ -158,11 +161,7 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-                            plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                            custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                            within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            untuk saat ini saya menerima jasa pembuatan website menggunakan wordpress
                         </div>
                     </div>
                 </div>
@@ -175,28 +174,33 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-                            plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                            custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                            within the <code>.accordion-body</code>, though the transition does limit overflow.
+                           ya saat ini saya bekerja sendirian tidak ada campurtangan pihak ke dua
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                <div class="accordion-item" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed rounded type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefor" aria-expanded="false" aria-controls="collapsefor">
+                            Berapa harga jasa yang saya berikan?
+                        </button>
+                    </h2>
+                    <div id="collapsefor" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                           harga tergantung kesulitan dan kerumitan untuk pembuatan website tersebut
+                        </div>
+                    </div>
+                </div>
+                <div id="accordion" class="accordion-item " data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             Apa saja yang bisa saya kerjakan?
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                            plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                            custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                            within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            hal yang bisa saya kerjakaan antaranya pembuatan landingpage dan pembuatan website menggunakan wordpress
                         </div>
                     </div>
                 </div>
@@ -223,10 +227,9 @@
                         <img src="img/Project.jpg" class="card-img-top" alt="web-design">
                         <div class="card-body ">
                             <h5 class="card-title">Front end</h5>
-                            <p class="card-text">ini adalah project yang saya buat menggunakan html, css, js, Bootstrapp
-                                dan masih banyak lagi
+                            <p class="card-text">untuk project forntend saya membuat website untuk umkm yang insyallah akan selesai di akhir bulan ramadhan 1445H saat ini
                             </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary" id="btnCard">Go somewhere</a>
                         </div>
                     </div>
                 </div>
@@ -235,9 +238,8 @@
                         <img src="img/wordpress2.jpg" class="card-img-top" alt="wordpress">
                         <div class="card-body">
                             <h5 class="card-title">wordpress </h5>
-                            <p class="card-text">Ini adalah project website menggunakan wordpress yang saat ini
-                                masih saya hedel</p>
-                            <a href="https://laznasalirsyad.org/" class="btn btn-primary"> Lihat Website</a>
+                            <p class="card-text">Ini adalah project yang saat ini masih saya kelola yaitu website instansi lembaga zakat laznas alirsyad</p>
+                            <a href="https://laznasalirsyad.org/" class="btn btn-primary" id="btnCard"> Lihat Website</a>
                         </div>
                     </div>
                 </div>
@@ -246,9 +248,8 @@
                         <img src="img/wordpress2.jpg" class="card-img-top" alt="videogrqaper5">
                         <div class="card-body">
                             <h5 class="card-title"> wordpress </h5>
-                            <p class="card-text">website berbasis wordpress yang saat ini saya hendel dan masih
-                                dalam taham pengembangan</p>
-                            <a href="https://sedekahkurma.com/" class="btn btn-primary">Lihat website</a>
+                            <p class="card-text">untuk project wordpress yang ke2 ini sebuah website crowefudhing yang website  ini lounching di bulan ramadhan 1445h sekarang </p>
+                            <a href="https://sedekahkurma.com/" class="btn btn-primary" id="btnCard">Lihat website</a>
                         </div>
                     </div>
                 </div>
@@ -259,7 +260,7 @@
                             <h5 class="card-title"> Fotografi</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up
                                 the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Lihat Foto</a>
+                            <a href="#" class="btn btn-primary" id="btnCard">Lihat Foto</a>
                         </div>
                     </div>
                 </div>
@@ -270,7 +271,7 @@
                             <h5 class="card-title"> Videograhy</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up
                                 the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Lihat Video</a>
+                            <a href="#" class="btn btn-primary" id="btnCard">Lihat Video</a>
                         </div>
                     </div>
                 </div>
@@ -292,7 +293,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-6" style="overflow-x: hidden;">
                     <form onsubmit="sendMessage()">
-                        <div class="mb-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="mb-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" >
                             <label for="name" class="form-label">Nama Lengkap</label>
                             <input type="name" class="form-control shadow-sm" id="name" aria-describedby="name"
                                 required>
@@ -321,7 +322,7 @@
 
 
 <!-- footer -->
-<footer class="bg-primary text-white text-center p-10 ">
+<footer class=" text-white text-center p-10 ">
 
     <button type="button" class="btn btn-outline-light"
         onclick="window.location.href='https://www.tiktok.com/@ginda.sann'">

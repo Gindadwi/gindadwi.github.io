@@ -11,6 +11,7 @@
 }
 
 .container {
+    overflow-x: hidden;
     text-align: left; /* optional, to center align content within the container */
 }
 
@@ -118,18 +119,18 @@ display: none;
 }
 
 
+/* project */
 #project{
      background-color: #e2edff;
 }
 
-#About{
-    padding-bottom: 25px;
-    margin-bottom: 20px;
+#btnCard{
+    background-color: #003283;
 }
 
-#tulisanabout{
-    margin-bottom: 10px;
-}
+
+
+
 
 section{
     padding-top: 2rem;
@@ -139,10 +140,20 @@ section{
     margin: 5px;
 }
 footer{
+    background-color: #003283;
     padding: 15px;
     padding-top: 25px;
     margin-top: 20px;
 }
+
+/* Button kontak hero */
+#btnkontak{
+background-color: #003283;
+color: white;
+}
+
+
+
 
 /* skill */
 
@@ -186,6 +197,17 @@ h6{
     margin-top: -35px;
 }
 
+.skill .row{
+     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.skill .row :hover{
+    transform: scale(1.1);
+}
+
+
+
 /* FAQs */
 .accordion-button {
     position: relative;
@@ -216,6 +238,9 @@ h6{
     font-weight:500;
     border-radius: 10px;
 }
+#accordion{
+    margin-bottom: 50px;
+}
 
 #Acoarding{
 font-size: 17px;
@@ -225,10 +250,23 @@ color: #000000;
     border: 1px solid blue;
 }
 
-/* Text about */
-#textabout{
-    padding: 10px;
-    margin: 10px;
+/* Button form komtak */
+#sendMessageBtn{
+    background-color: #003283;
 }
 
-/* button kirim */
+
+#name{
+    border: 1px solid ;
+    border-color: #003283;
+}
+
+#email{
+     border: 1px solid ;
+    border-color: #003283;
+}
+
+#Message{
+     border: 1px solid ;
+    border-color: #003283;
+}
