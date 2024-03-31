@@ -3,6 +3,7 @@
 }
 
 .HeroMenu {
+    margin-top: -35px;
     display: flex;
     justify-content: center;
     align-items: center; /* optional, to vertically center the content */
@@ -112,7 +113,7 @@ display: none;
 }
 
 .hello{
-    color: #FA9300;
+    color: #f18d01;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
@@ -151,10 +152,16 @@ footer{
 }
 
 .box1{
+    cursor: pointer;
+    transition: transform 0.3s ease;
     padding: 15px;
     margin: 10px;
     border: solid 1px rgb(187, 187, 187);
     border-radius: 10px;
+}
+
+.box1 :hover{
+transform: scale(1.1);
 }
 
 @media (min-width: 769px) {
@@ -165,7 +172,19 @@ footer{
 
 }
 
+h6{
+    font-size: 18px;
+}
 
+#myskill{
+    color: #f18d01;
+    font-weight: bold;
+    font-family: "baloo";
+}
+
+.skill{
+    margin-top: -35px;
+}
 
 /* FAQs */
 .accordion-button {
