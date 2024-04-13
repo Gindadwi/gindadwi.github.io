@@ -88,19 +88,19 @@
 }
 
 
+/* meng hiddeng gambar img1,2,3 di tampilan mobile */
 
 @media (max-width: 768px) {
     .img1, .img2, .img3 {
         display: none;
     }
 
-
 }
 
+/* meng hiddeng gambar img11,22,33 di tampilan Dekstop */
 @media (min-width: 769px) {
     .img11, .img22, .img33 {
         
-       
 display: none;
     }
 }
@@ -173,17 +173,36 @@ color: white;
     border-radius: 10px;
 }
 
+.box2{
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    padding: 15px;
+    margin: 10px;
+    border: solid 1px rgb(187, 187, 187);
+    border-radius: 10px;
+}
+
+
 .box1 :hover{
 transform: scale(1.1);
 }
 
+/* hiden tampilan di desktop */
 @media (min-width: 769px) {
     .box1 {
         display: none;
     }
+}
 
+
+/* hidden tampilan di hp */
+@media (max-width: 768px) {
+    .box2{
+        display: none;
+    }
 
 }
+
 
 h6{
     font-size: 18px;

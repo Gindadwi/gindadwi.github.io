@@ -29,14 +29,14 @@ $(document).ready(function () {
        
     });
 });
-$(document).ready(function () {
-    $('#btnCardFrontend').click(function () {
-        // Memeriksa apakah ada input yang kosong
-         swal('', 'Maaf Untuk Project Front end masih dalam tahap pembuatan, untuk contoh bisa di lihat web portofolio ini ', 'warning'); // Menampilkan peringatan menggunakan sweetalert
-        return false; // Menghentikan pengiriman form jika ada input yang kosong
+// $(document).ready(function () {
+//     $('#btnCardFrontend').click(function () {
+//         // Memeriksa apakah ada input yang kosong
+//          swal('', 'Maaf Untuk Project Front end masih dalam tahap pembuatan, untuk contoh bisa di lihat web portofolio ini ', 'warning'); // Menampilkan peringatan menggunakan sweetalert
+//         return false; // Menghentikan pengiriman form jika ada input yang kosong
        
-    });
-});
+//     });
+// });
 $(document).ready(function () {
     $('#btnFotografi').click(function () {
         // Memeriksa apakah ada input yang kosong
