@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     background-color: #003BFF;
 }
 
@@ -6,36 +6,49 @@
     margin-top: -35px;
     display: flex;
     justify-content: center;
-    align-items: center; /* optional, to vertically center the content */
-    min-height: 70vh; /* optional, to make sure the section takes up at least the height of the viewport */
+    align-items: center;
+    /* optional, to vertically center the content */
+    min-height: 70vh;
+    /* optional, to make sure the section takes up at least the height of the viewport */
+}
+
+.hello {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+#Ginda {
+    font-family: 'Baloo 2';
 }
 
 .container {
     overflow-x: hidden;
-    text-align: left; /* optional, to center align content within the container */
+    text-align: left;
+    /* optional, to center align content within the container */
 }
 
 /* Image dekstop */
 
-.img1{
-    
+.img1 {
+
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;
     border-bottom-right-radius: 10px;
 }
 
-.img2{
+.img2 {
 
-   margin-top: 80px;
-   margin-left: 10px;
+    margin-top: 80px;
+    margin-left: 10px;
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     border-bottom-left-radius: 10px;
 }
 
-.img3{
+.img3 {
 
     margin-top: -20px;
     border-top-left-radius: 60px;
@@ -44,13 +57,13 @@
     border-bottom-left-radius: 60px;
 }
 
-.img-img{
+.img-img {
     justify-content: center;
     align-items: center;
-    align-content: center; 
+    align-content: center;
 }
 
-#imgDekstop{
+#imgDekstop {
     margin-left: -90px;
 }
 
@@ -59,15 +72,15 @@
 
 
 /* Image mobile */
-.img11{
-   margin-left: 15px;
+.img11 {
+    margin-left: 15px;
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;
     border-bottom-right-radius: 10px;
 }
 
-.img22{
+.img22 {
 
     margin-left: 10px;
     margin-top: 60px;
@@ -77,7 +90,7 @@
     border-bottom-left-radius: 10px;
 }
 
-.img33{
+.img33 {
     margin-top: -10px;
     margin-right: 135px;
     border-top-left-radius: 60px;
@@ -90,7 +103,10 @@
 /* meng hiddeng gambar img1,2,3 di tampilan mobile */
 
 @media (max-width: 768px) {
-    .img1, .img2, .img3 {
+
+    .img1,
+    .img2,
+    .img3 {
         display: none;
     }
 
@@ -98,49 +114,88 @@
 
 /* meng hiddeng gambar img11,22,33 di tampilan Dekstop */
 @media (min-width: 769px) {
-    .img11, .img22, .img33 {
-        
-display: none;
+
+    .img11,
+    .img22,
+    .img33 {
+
+        display: none;
     }
 }
 
 
-.img-img{
+.img-img {
     padding-top: 30px;
 }
 
-#textHero{
+#textHero {
     font-weight: 400;
     font-size: 18px;
 }
 
-.hello{
+.hello {
     color: #f18d01;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 
 /* project */
-#project{
-     background-color: #e2edff;
+#project {
+    background-color: #e2edff;
 }
 
-#btnCard{
+#btnCard {
     background-color: #003283;
 }
 
-
-
-
-
-section{
-    padding-top: 2rem;
- 
+#projectsContainer {
+    transition: all 0.5s ease-in-out;
+    font-family: 'Poppins';
 }
-.btn{
+
+#Myproject{
+    font-family: 'Baloo 2';
+    font-size: 28px;
+    font-weight: bold;
+}
+#Myproject2{
+    font-family: 'Poppins';
+    font-size: 17px;
+}
+
+.hidden {
+    display: none;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+section {
+    padding-top: 2rem;
+
+}
+
+.btn {
     margin: 5px;
 }
-footer{
+
+footer {
     background-color: #003283;
     padding: 15px;
     padding-top: 25px;
@@ -148,22 +203,33 @@ footer{
 }
 
 /* Button kontak hero */
-#btnkontak{
-background-color: #003283;
-color: white;
+#btnkontak {
+    background-color: #003283;
+    color: white;
 }
 
 
+
+
+/* SOSMED Hero */
+#iconSosmed {
+    size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: solid 1px rgb(187, 187, 187);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Box shadow */
+}
 
 
 /* skill */
 
-.row{
+.row {
     justify-content: center;
     padding-top: 10px;
 }
 
-.box1{
+.box1 {
     cursor: pointer;
     transition: transform 0.3s ease;
     padding: 15px;
@@ -172,7 +238,7 @@ color: white;
     border-radius: 10px;
 }
 
-.box2{
+.box2 {
     cursor: pointer;
     transition: transform 0.3s ease;
     padding: 15px;
@@ -182,8 +248,8 @@ color: white;
 }
 
 
-.box1 :hover{
-transform: scale(1.1);
+.box1 :hover {
+    transform: scale(1.1);
 }
 
 /* hiden tampilan di desktop */
@@ -196,33 +262,34 @@ transform: scale(1.1);
 
 /* hidden tampilan di hp */
 @media (max-width: 768px) {
-    .box2{
+    .box2 {
         display: none;
     }
 
 }
 
 
-h6{
+h6 {
     font-size: 18px;
+    font-family: 'Poppins';
 }
 
-#myskill{
+#myskill {
     color: #f18d01;
     font-weight: bold;
-    font-family: "baloo";
+    font-family: "Baloo 2";
 }
 
-.skill{
+.skill {
     margin-top: -35px;
 }
 
-.skill .row{
-     cursor: pointer;
+.skill .row {
+    cursor: pointer;
     transition: transform 0.3s ease;
 }
 
-.skill .row :hover{
+.skill .row :hover {
     transform: scale(1.1);
 }
 
@@ -235,19 +302,21 @@ h6{
     font-size: 1rem;
     color: #212529;
     background-color: #ffffff;
-    border: 1px solid  #003283;
+    border: 1px solid #003283;
     text-align: left;
     cursor: pointer;
     border-radius: 20px;
 }
+
 .accordion-item {
     overflow: hidden;
     margin-bottom: 15px;
 }
 
-.accordion-body{
+.accordion-body {
     background-color: #e2edff;
 }
+
 .accordion-flush .accordion-item {
     margin-bottom: 10px;
 }
@@ -255,38 +324,51 @@ h6{
 .accordion-flush .accordion-button {
     background-color: white;
     color: black;
-    font-weight:500;
+    font-weight: 500;
     border-radius: 10px;
 }
-#accordion{
+
+#accordion {
     margin-bottom: 50px;
 }
 
-#Acoarding{
-font-size: 17px;
-color: #000000;
+#Acoarding {
+    font-size: 17px;
+    color: #000000;
 }
-#form{
+
+#form {
     border: 1px solid blue;
 }
 
 /* Button form komtak */
-#sendMessageBtn{
+
+#Contact{
+    font-family: 'Baloo 2';
+}
+#Contact2{
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+
+#sendMessageBtn {
     background-color: #003283;
 }
 
 
-#name{
-    border: 1px solid ;
+#name {
+    border: 1px solid;
     border-color: #003283;
 }
 
-#email{
-     border: 1px solid ;
+#email {
+    border: 1px solid;
     border-color: #003283;
 }
 
-#Message{
-     border: 1px solid ;
+#Message {
+    border: 1px solid;
     border-color: #003283;
 }
+
