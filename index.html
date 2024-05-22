@@ -427,5 +427,38 @@
 </footer>
 <!-- akhir footer -->
 
+<script>
+    
+        // Membuat animasi mengetik
+        document.addEventListener("DOMContentLoaded", function () {
+            var options = {
+                strings: ["allo Minna I'm"],
+                typeSpeed: 100, // Kecepatan mengetik
+                backSpeed: 100, // Kecepatan menghapus
+                loop: true, // Mengulang dari awal
+                showCursor: false // Menyembunyikan kursor
+            };
+
+            var typed = new Typed("#typed", options);
+        });
+
+
+        // Animasi Project
+
+        document.addEventListener("DOMContentLoaded", function () {
+            var showProjectsBtn = document.getElementById("showProjectsBtn");
+            var projectsContainer = document.getElementById("projectsContainer");
+
+            showProjectsBtn.addEventListener("click", function () {
+                if (projectsContainer.style.display === "none") {
+                    projectsContainer.style.display = "flex";
+                    showProjectsBtn.textContent = "Hide My Project";
+                } else {
+                    projectsContainer.style.display = "none";
+                    showProjectsBtn.textContent = "Show My Project";
+                }
+            });
+        });
+</script>
 
 </html>
